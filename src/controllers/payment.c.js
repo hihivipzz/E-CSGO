@@ -60,9 +60,7 @@ exports.getSuccess = async (req,res)=>{
                 res.redirect('/user/profile')
             }catch(e){
                 throw(e);
-            }
-           
-           
+            }  
         }
     });
 }

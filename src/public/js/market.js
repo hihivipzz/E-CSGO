@@ -138,7 +138,6 @@ function filterButton() {
 }
 document.getElementById("filter").style.display = "initial";
 $(window).resize(function() {
-  
   if($(window).width()>= 960){
     document.getElementById("filter").style.display = "initial";
   }

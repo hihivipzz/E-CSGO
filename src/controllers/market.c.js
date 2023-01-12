@@ -13,9 +13,6 @@ const getUserSellItem = async (steamid)=>{
     return result;
 }
 
-
-
-
 exports.getMarket = async(req,res,next)=>{
     const match ={
         exterior : ['Factory New',"Minimal Wear","Field-Tested","Well-Worn","Battle-Scarred",undefined],
